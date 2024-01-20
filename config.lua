@@ -19,7 +19,7 @@ Config.format = {
 -- The "default" option will use the framework's default script
 -- ATTENTION: If you set it to "other," it's necessary to configure the script inside the custom_scripts folder in the respective file
 Config.custom_scripts_compatibility = {
-	['fuel'] = "ps-fuel",						-- [ox_fuel|ps-fuel|sna-fuel|cdn-fuel|LegacyFuel|default|other] Fuel script Compatibility
+	['fuel'] = "ps-fuel",						-- [ox_fuel|ps-fuel|sna-fuel|cdn-fuel|ps-fuel|default|other] Fuel script Compatibility
 	['inventory'] = "default",					-- [ox_inventory|qs-inventory|ps-inventory|default|other] Inventory script Compatibility
 	['keys'] = "default",						-- [qs-vehiclekeys|cd_garage|jaksam|wasabi_carlock|default|other] Keys script Compatibility
 	['mdt'] = "ps-mdt",						-- [ps-mdt|default|other] MDT script Compatibility (to log weapon serial)
